@@ -1,0 +1,297 @@
+body {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 14px;
+    min-width: 320px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar.is-black {
+    background-color: #1b1b1b;
+    font-size: 8px;
+}
+
+.navbar .navbar-brand {
+    justify-content: center;
+}
+
+.navbar .nav-link {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    body,
+    .navbar.is-black {
+        font-size: 16px;
+    }
+    
+    .navbar .nav-link {
+        display: flex;
+    }
+    
+    .navbar .navbar-brand {
+        justify-content: flex-start;
+    }
+
+}
+
+.title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.hero.dark {
+    background-color: #000;
+    background-image: url(../images/fornax-cluster.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.hero.dark .title .hal,
+.hero.dark .title .nine-thousand {
+    color: #fff;
+    background-color: #009bdc;
+    display: inline-block;
+    padding-right: 6px;
+    padding-left: 10px;
+    padding-top: 4px;
+    border: 4px solid #fff;
+}
+
+.hero.dark .title .hal {
+    border-right: none;
+}
+
+.hero.dark .title .nine-thousand {
+    color: #fff;
+    background-color: #000000;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 6px;
+    border-left: none;
+}
+
+.hero .subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.hero.dark .subtitle {
+    color: #fff;
+    margin-top: 0;
+}
+
+.hero.dark .subtitle strong {
+    color: #009bdc;
+    font-weight: 400;
+}
+
+.hero.dark .button {
+    background-color: #009bdc;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.hero .button {
+    padding-bottom: 4px;
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .hero .subtitle {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+.hero .button {
+    margin-bottom: 6rem;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+.overview .title {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .overview .title {
+        margin-bottom: 5rem;
+    }
+}
+
+.overview .embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.overview .embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.features {
+    background-color: #efefef;
+}
+
+.features .title {
+    margin-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+    .features .title {
+        margin-top: 4rem;
+    }
+}
+
+.features .subtitle {
+    color: #009bdc;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.features .subtitle.eye {
+    color: #e53300;
+}
+
+.features .column {
+    padding-bottom: 5rem;
+}
+
+.features figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    margin-bottom: 1rem;
+}
+
+.features figure .fas {
+    color: #009bdc;
+    margin-bottom: 2rem;
+}
+
+.features figure .fas.fa-eye {
+    color: #e53300;
+}
+
+.pricing {
+    background-color: #fff;
+    font-size: 12px;
+}
+
+.pricing .title {
+    color: #000;
+    margin-top: 4rem;
+}
+
+.pricing .hero-body {
+    margin: -3rem -1.5rem;
+}
+
+@media (min-width: 480px) {
+    .pricing{
+        background-color: #000;
+    }
+    
+    .pricing .title {
+        color: #fff;
+    }
+    
+    .pricing .hero-body {
+        margin: 0;
+    }
+}
+
+.pricing .box {
+    padding-bottom: 2rem;
+    display: flex;
+    border-radius: 0;
+    max-width: 30rem;
+    margin: 0 auto 4rem;
+    box-shadow: none;
+}
+
+.pricing .media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing .media-left {
+    margin-right: 0;
+}
+
+.pricing .content {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing .content .feature-list {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.pricing .price {
+    font-size: 1.5em;
+}
+
+.pricing li {
+    color: #e53300;
+}
+
+.pricing li span {
+    color: #4a4a4a;
+}
+
+.pricing .button.is-danger {
+    background-color: #e53300;
+    margin-bottom: 0;
+}
+
+.contact {
+    padding: 4rem 1.5rem;
+    background-color: #efefef;
+    font-size: 12px;
+}
+
+.contact .control {
+    text-align: center;
+}
+
+.contact .label {
+    font-size: 12px;
+}
+
+.contact input{
+    font-family: 'Press Start 2P', monospace;
+    font-size: 14px;
+}
+
+.contact .input {
+    max-width: 400px;
+}

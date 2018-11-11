@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>FCC: Product Landing Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">  
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+        <link rel="stylesheet" href="styles/bulma.css">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    
+    <body class="has-navbar-fixed-top">
+        <header id="header"><!-- User Story #1 -->
+            <nav id="nav-bar" class="navbar is-black is-fixed-top" aria-label="Main navigation"> <!-- User Story #3, #13 -->
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="#">
+                            <img id="header-img" src="images/hal-9000.png" alt="HAL 9000"> <!-- User Story #2 -->
+                        </a>
+                        
+                        <!-- User Story #4, #5 -->
+                        <a class="navbar-item nav-link" href="#overview">
+                            Overview
+                        </a>
+                        <a class="navbar-item nav-link" href="#features">
+                            Features
+                        </a>
+                        <a class="navbar-item nav-link" href="#pricing">
+                            Pricing
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="hero dark is-fullheight">
+                <div class="hero-body has-text-centered">
+                    <div class="container">
+                        <h1 class="title">
+                            <span class="hal">HAL</span><span class="nine-thousand">9000</span>
+                        </h1>
+                        <h2 class="subtitle">
+                            <strong>H</strong>euristically programmed <br><strong>AL</strong>gorithmic computer
+                        </h2>
+                        <a class="button" href="#overview">Learn more</a>
+                        <figure>
+                            <img src="images/hal-9000-case.svg" width="200" alt="Heuristically programmed ALgorithmic computer">
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            
+            
+            <section id="overview" class="overview hero is-fullheight">
+                <div class="hero-body">
+                    <div class="container">
+                        <h2 class="title">
+                            Sentient computer
+                        </h2>
+                        <div class="columns is-variable is-8">
+                            <div class="column">
+                                <div class="embed-container">
+                                    <iframe id="video" src="https://www.youtube.com/embed/ARJ8cAGm6JE" allowfullscreen></iframe> <!-- User Story #6 -->
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="content">
+                                    <p>Experience what the ultimate sentient computer was always meant to be. By bringing powerful, all-day performance and a large red camera eye to a seductively thin and exceptionally crafted metal and carbon fiber design, this computer is almost too good to be true.</p>
+                                    <p>This sleek computer was engineered to deliver incredible AI performance and processing speed to empower you when inspiration strikes. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="features" class="features hero is-fullheight">
+                <div class="hero-body has-text-centered">
+                    <div class="container">
+                        <h2 class="title">
+                            Features
+                        </h2>
+                        <div class="columns is-multiline is-variable is-8">
+                            <div class="column is-half-tablet is-one-third-widescreen">
+                                <figure>
+                                    <i class="fas fa-microchip fa-5x"></i>
+                                </figure>
+                                <h3 class="subtitle">IBM® Power System AC922</h3>
+                                <p>Delivers unprecedented performance for space travel and artificial intelligence.</p>
+                            </div>
+                            <div class="column is-half-tablet is-one-third-widescreen">
+                                <figure>
+                                    <i class="fas fa-memory fa-5x"></i>
+                                </figure>
+                                <h3 class="subtitle">Memory</h3>
+                                <p>128TB LPDDR6 high memory capacity helps provide the best multitasking intelligence.</p>
+                            </div>
+                            <div class="column is-half-tablet is-one-third-widescreen">
+                                <figure>
+                                    <i class="fas fa-eye fa-5x"></i>
+                                </figure>
+                                <h3 class="subtitle eye">Red eye camera</h3>
+                                <p>Log in safely and video chat with a lip reading 180-degree wide-angle field of view camera.</p>
+                            </div>
+                            <div class="column is-half-tablet is-one-third-widescreen">
+                                <figure>
+                                    <i class="fas fa-bolt fa-5x"></i>
+                                </figure>
+                                <h3 class="subtitle">Fast discharge</h3>
+                                <p>With its power consumption of 13 MW go from 100% to full discharge in approximately 3 seconds. Batteries not included.</p>
+                            </div>
+                            <div class="column is-half-tablet is-one-third-widescreen">
+                                <figure>
+                                    <i class="fas fa-hdd fa-5x"></i>
+                                </figure>
+                                <h3 class="subtitle">250 PB storage</h3>
+                                <p>That's the equivalent of 250,000 TB of virtually infinite storage space for all your holographic 3D video content.</p>
+                            </div>
+                            <div class="column is-half-tablet is-one-third-widescreen">
+                                <figure>
+                                    <i class="fas fa-brain fa-5x"></i>
+                                </figure>
+                                <h3 class="subtitle">Fast and reliable AI</h3>
+                                <p>Next generation artificial intelligence, with highest level of reliability, availability and serviceability.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="pricing" class="pricing hero is-fullheight">
+                <div class="hero-body has-text-centered">
+                    <div class="container">
+                        <h2 class="title">
+                            Pricing
+                        </h2>
+                        <div class="box">
+                            <div class="media">
+                                <div class="media-left">
+                                    <picture>
+                                      <source media="(max-width: 480px)" srcset="images/hal-9000-269w.jpg">
+                                      <img src="images/hal-9000-440w.jpg" alt="HAL 9000">
+                                    </picture>
+                                </div>
+                                <div class="media-content">
+                                  <div class="content">
+                                    <p>Starting at <span class="price">$199,999,999</span></p>
+                                    <ul class="feature-list">
+                                        <li><span>IBM AC922</span></li>
+                                        <li><span>200 Petaflops</span></li>
+                                        <li><span>9216 POWER9 22-core CPUs</span></li>
+                                        <li><span>27,648 Nvidia Tesla V100 GPUs</span></li>
+                                        <li><span>13 MW power consumption</span></li>
+                                        <li><span>250 PB storage</span></li>
+                                        <li><span>State-of-the-art sentient computer</span></li>
+                                    </ul>
+                                    <a class="button is-danger">Pre-order</a>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="contact">
+                <div class="container has-text-centered">
+                    <h2 class="title">
+                        Keep me updated
+                    </h2>
+                    
+                    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post"> <!-- User Story #7, #12 -->
+                        <div class="field">
+                            <label for="email" class="label">Send me an email when product is available!</label>
+                            <div class="control">
+                                <input id="email" class="input" type="email" name="email" placeholder="e.g. hal@space.com" required> <!-- User Story #8, #9, #10 -->
+                            </div>
+                        </div>
+                        <input id="submit" class="button is-dark" type="submit" value="Beam me up Scotty!"> <!-- User Story #11 -->
+                    </form>
+                </div>
+            </section>
+        </main>
+    
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
